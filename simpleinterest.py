@@ -3,6 +3,11 @@
 # rate of interest.
 
 
+# Python3 program to find simple interest
+# for given principal amount, time and
+# rate of interest.
+
+
 def simple_interest(p,t,r):
 	print('The principal is', p)
 	print('The time period is', t)
@@ -14,4 +19,8 @@ def simple_interest(p,t,r):
 	return si
 	
 # Driver code
-simple_interest(8, 6, 8)
+p=eval(input("Enter Principal Amount"))
+t=eval(input("Enter Time Period"))
+r=eval(input("Enter Annual rate of interest"))
+simple_interest(p, t, r)
+
